@@ -1,0 +1,46 @@
+/******************************************************************************
+pattern 6:    *
+             **
+            ***
+           ****
+            ***
+             **
+              * 
+*******************************************************************************/
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int r,s,c;
+        for(r=1;r<=4;r++)
+        {
+            for(s=3;s>=r;s--)
+            {
+        
+               System.out.print(" ");
+             }
+           for(c=1;c<=r;c++)
+           {
+               System.out.print("*");
+           }
+            System.out.println(" ");
+        }
+           
+           
+           for(r=1;r<=3;r++)
+           {
+               for(s=1;s<=r;s++)
+               {
+                   System.out.print(" ");
+               }
+               for(c=3;c>=r;c--)
+               {
+                   System.out.print("*");
+               }
+                System.out.println(" ");
+           }
+          
+    }
+}
+    
