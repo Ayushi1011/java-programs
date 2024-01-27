@@ -1,0 +1,23 @@
+/******************************************************************************
+PATTERN 10: A
+            BB
+            CCC
+            DDDD
+*******************************************************************************/
+
+import java.util.*;
+class Main
+{
+    public static void main(String args[])
+    {
+        int r,c;
+        for(r=65;r<=68;r++)
+        {
+            for(c=65;c<=r;c++)
+            {
+                System.out.print((char)r);
+            }
+            System.out.println(" ");
+        }
+    }
+}
