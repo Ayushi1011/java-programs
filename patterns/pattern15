@@ -1,0 +1,26 @@
+/******************************************************************************
+PATTERN 15: 1
+            10
+            101
+            1010
+            10101
+*******************************************************************************/
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int r,c;
+        for(r=1;r<=5;r++)
+        {
+            for(c=1;c<=r;c++)
+            {
+                if(c%2==0)
+                System.out.print("0");
+                else
+                System.out.print("1");
+            }
+            System.out.println(" ");
+        }
+    }
+}
