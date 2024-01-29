@@ -1,0 +1,18 @@
+/*Program 4: Accept a string from a user and Concat it.*/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        String a,b,c;
+        a="Computer";
+        b="Applications";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two strings");
+        a=sc.nextLine();
+        b=sc.nextLine();
+        c=a.concat(b);
+        System.out.println("After conctinating: "+c);
+    }
+}
