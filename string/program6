@@ -1,0 +1,24 @@
+/*Program 6: CHECK IF TWO STRINGS ARE EQUAL.*/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        String a,b;
+        boolean c;
+        a="COMPUTER";
+        b="APPLICATIONS";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter two strings");
+        a=sc.nextLine();
+        b=sc.nextLine();
+       if(a.equals(b))
+       System.out.println("THE STRINGS ARE SAME" );
+       else
+       System.out.println("THE STRINGS ARE NOT SAME" );
+        
+        
+        
+    }
+}
