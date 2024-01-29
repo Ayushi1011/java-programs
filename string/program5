@@ -1,0 +1,16 @@
+/*Program 5: REPLACE FUNCTION.*/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        String a,b;
+        a="OLD DELHI IS OLD ERA";
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter the string");
+        a=sc.nextLine();
+        b=a.replace("OLD","NEW");
+        System.out.println("AFTER REPLACING: "+b);
+    }
+}
