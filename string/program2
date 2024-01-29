@@ -1,0 +1,16 @@
+/*Program 2: Accept a string from a user and COVERT IT INTO LOWERCASE.*/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        String a,b;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter a string");
+        a=sc.nextLine();
+        System.out.println("THE STRING IS: "+a);
+        b=a.toLowerCase();
+        System.out.println("IN LOWERCASE: "+b);
+    }
+}
