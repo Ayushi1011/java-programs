@@ -1,8 +1,8 @@
 /******************************************************************************
 PATTERN 20: I
-            IC
-            ICS
-            ICSE
+            CC
+            SSS
+            EEEE
 *******************************************************************************/
 import java.util.*;
 class Main 
@@ -15,7 +15,7 @@ class Main
         {
             for(c=0;c<=r;c++)
             {
-                System.out.print(name.charAt(c));
+                System.out.print(name.charAt(r));
             }
             System.out.println(" ");
         }
