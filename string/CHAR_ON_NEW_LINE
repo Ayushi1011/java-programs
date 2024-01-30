@@ -1,0 +1,14 @@
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int r;
+        String name="BLUEJ";
+      
+        for(r=0;r<name.length();r++)
+        {
+            System.out.println(name.charAt(r));
+        }
+    }
+}
