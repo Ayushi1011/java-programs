@@ -1,0 +1,25 @@
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int a,r;
+        String name;
+        char ch;
+        int count=0;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER A STRING");
+        name=sc.nextLine();
+        String n=name.toLowerCase();
+        a=name.length();
+        for(r=0;r<name.length();r++)
+        {
+            ch=n.charAt(r);
+            if(ch == 'a'||ch == 'e'||ch == 'i'||ch == 'o'||ch == 'u')
+            {
+              count++;
+            }
+        }
+        System.out.println("vowels="+count);
+    }
+}
