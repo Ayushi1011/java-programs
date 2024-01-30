@@ -1,0 +1,22 @@
+/*Accept a name and print it in reverse form. (If name is AMIT, then output is TIMA)*/
+
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int r;
+        String name;
+    
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER A STRING");
+        name=sc.nextLine();
+        int l=name.length();
+        for(r=l-1;r>=0;r--)
+        {
+            System.out.print(name.charAt(r));
+        }
+        
+    }
+}
