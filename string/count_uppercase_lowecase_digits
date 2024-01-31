@@ -1,0 +1,45 @@
+/******************************************************************************
+Count the number of uppercase lowercase numbers and vowels
+
+*******************************************************************************/
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+      int upper=0,vowels=0,lower=0,digits=0;
+      
+      Scanner sc=new Scanner(System.in);
+      System.out.println("Enter a string");
+      String a=sc.nextLine();
+      for(int i=0; i<a.length();i++)
+      {
+      int ch=a.charAt(i);
+      if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'|| ch=='A'||ch=='E'||ch=='I'||ch=='O'||ch=='U')
+      {
+          vowels++;
+      }
+      
+      if(ch>='A'&& ch<='Z')
+            {
+         upper++;
+            }
+            
+             if(ch>='a'&& ch<='z')
+            {
+         lower++;
+            }
+            
+                if(ch>='0'&& ch<='9')
+            {
+         digits++;
+            }
+      }
+      System.out.println("the total number of vowels are=" + vowels);
+       System.out.println("the total number of uppercase are=" + upper);
+       System.out.println("the total number of digits are=" + digits);
+       System.out.println("the total number of lowercase are=" + lower);
+      
+      
+    }
+}
