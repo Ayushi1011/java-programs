@@ -1,0 +1,19 @@
+/******************************************************************************
+REPLACE E WITH *
+
+*******************************************************************************/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+       String a,b;
+       String c="Computer Science";
+       Scanner sc=new Scanner(System.in);
+       System.out.println("Enter a string");
+       a=sc.nextLine();
+       b=a.replace('e','*');
+       System.out.println("AFTER REPLACING: "+b);
+    }
+}
