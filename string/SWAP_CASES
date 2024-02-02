@@ -1,0 +1,40 @@
+/******************************************************************************
+ SWAP CASES : UPPER TO LOWER AND VICE VERSA
+
+*******************************************************************************/
+
+import java.util.*;
+class Main
+{
+  public static void main (String args[])
+  {
+	int r;
+	char ch1=' ';
+	String str = " ";
+	Scanner sc = new Scanner (System.in);
+	  System.out.println ("ENTER THE STRING: ");
+	String a = sc.nextLine ();
+	for (r = 0; r < a.length (); r++)
+	  {
+		char ch = a.charAt (r);
+		if (ch >= 'a' && ch <= 'z')
+		  {
+			ch1 = Character.toUpperCase (ch);
+			str = str + ch1 ;
+		  }
+
+
+		else if (ch >= 'A' && ch <= 'Z')
+		  {
+			ch1 = Character.toLowerCase (ch);
+			str = str + ch1;
+		  }
+		 else{
+		     	  str=str+" ";
+		 }
+	
+ }
+
+	System.out.println (str);
+  }
+}
