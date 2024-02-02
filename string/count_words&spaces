@@ -1,0 +1,29 @@
+/******************************************************************************
+
+ count the number of spaces and words present in the sentence
+
+*******************************************************************************/
+
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int spaces=0;
+        int r;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER THE STRING: ");
+        String a=sc.nextLine();
+        for(r=0;r<a.length();r++)
+        {
+            char ch=a.charAt(r);
+            if(ch==' ')
+            {
+            spaces++;
+            }
+        }
+       
+        System.out.println("THE NUMBER OF SPACES PRESENT ARE: "+spaces);
+         System.out.println("THE NUMBER OF WORDS PRESENT ARE: "+(spaces+1));
+    }
+}
