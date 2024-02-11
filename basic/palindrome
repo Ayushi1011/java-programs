@@ -1,0 +1,22 @@
+import java.util.*;
+class Main
+{
+  public static void main (String args[])
+  {
+	String a, reverse = "";
+	int i, l;
+	Scanner sc = new Scanner (System.in);
+	  System.out.println ("ENTER A STRING: ");
+	  a = sc.next();
+	  l = a.length ();
+	for (i = l - 1; i >= 0; i--)
+	  {
+		char ch = a.charAt (i);
+		 reverse = reverse + ch;
+	  }
+	if (a.equals(reverse))
+	    System.out.println ("IT IS A PALINDROME");
+	else
+	  System.out.println ("IT IS NOT A PALINDROME");
+  }
+}
