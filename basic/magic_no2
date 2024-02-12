@@ -1,0 +1,13 @@
+import java.util.*;
+class Main
+{
+  public static void main (String args[])
+  {
+	int n = 23;
+	if (n % 9 == 1)
+	  System.out.println ("IT IS A MAGIC NUMBER");
+	else
+	    System.out.println ("IT IS NOT A MAGIC NUMBER");
+  }
+}
+
