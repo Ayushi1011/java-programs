@@ -1,0 +1,25 @@
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        int r,sum=0;
+        int n=1234;
+        while(n>9)
+        {
+            while(n>0)
+            {
+                r=n%10;
+                sum=sum+r;
+                n=n/10;
+            }
+            n=sum;
+            sum=0;
+        }
+            if(n==1)
+            System.out.println("IT IS A MAGIC NUMBER");
+            else
+            System.out.println("IT IS NOT A MAGIC NUMBER");
+            }
+    }
+    
