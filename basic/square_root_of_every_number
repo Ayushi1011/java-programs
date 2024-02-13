@@ -1,0 +1,26 @@
+/*To print the square root of each digit of the given number.
+
+Example:
+n = 4329
+Output b= 3.0
+1.414213562
+1.732050808
+2.0
+*/  
+  import java.util.*;
+  class Main 
+  {
+      public static void main(String args[])
+      {
+          int n=4329;
+          while(n>0)
+          {
+              int d=n%10;
+              double a=Math.sqrt(d);
+              System.out.println(a);
+              n=n/10;
+          }
+         
+      } 
+      }
+  
