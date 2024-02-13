@@ -1,0 +1,24 @@
+import java.util.*;
+class Main 
+{
+    public static void main(String args[])
+    {
+        boolean a=false;
+        int n;
+        Scanner sc=new Scanner(System.in);
+        System.out.println("ENTER A NUMBER: ");
+        n=sc.nextInt();
+        while(n>0)
+        {
+            if(n%10==0)
+            {
+                a=true;
+            }
+            n=n/10;
+        }
+            if(a==true)
+            System.out.println("IT IS A DUCK NUMBER");
+            else
+            System.out.println("IT IS NOT A DUCK NUMBER");
+        }
+    }
